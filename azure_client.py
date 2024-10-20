@@ -32,4 +32,4 @@ if __name__ == "__main__":
         telemetry_data = fetch_telemetry()
         if telemetry_data:
             push_to_azure(telemetry_data)
-        time.sleep(10)  # Fetch and send telemetry every 10 seconds (adjust as needed)
+        time.sleep(10)  # Fetch and send telemetry every 10 seconds (adjust as needed)2
