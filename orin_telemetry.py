@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 import psutil
 import netifaces
-import json
 
 app = FastAPI()
 
